@@ -68,6 +68,8 @@ before any model fitting and scored once, at the end.
 | File | What it is |
 |---|---|
 | [`analysis/fulcrum_report.md`](analysis/fulcrum_report.md) | Write-up: recommended model, coefficients with 95% CIs, held-out performance, recommendations and limits |
+| [`analysis/final_model.md`](analysis/final_model.md) | The final model written out explicitly: linear predictor with all 14 fitted coefficients, worked example, log-link rationale |
+| [`analysis/fulcrum_coefficients.csv`](analysis/fulcrum_coefficients.csv) | The 14-parameter coefficient table (estimate, SE, 95% CI, exp(coef)), intercept included |
 | [`analysis/fulcrum_figure.png`](analysis/fulcrum_figure.png) | The figure: site effect, off-rate optimum, fitted response surface, held-out fit |
 | [`analysis/fulcrum_ranked_candidates.csv`](analysis/fulcrum_ranked_candidates.csv) | All 500 antibodies ranked by predicted agonism, plate effect averaged out |
 | [`analysis/fulcrum_tricky_parts.txt`](analysis/fulcrum_tricky_parts.txt) | Inventory of the dataset's traps — **spoilers** |
