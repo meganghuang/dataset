@@ -71,6 +71,7 @@ before any model fitting and scored once, at the end.
 | [`analysis/fulcrum_figure.png`](analysis/fulcrum_figure.png) | The figure: site effect, off-rate optimum, fitted response surface, held-out fit |
 | [`analysis/fulcrum_ranked_candidates.csv`](analysis/fulcrum_ranked_candidates.csv) | All 500 antibodies ranked by predicted agonism, plate effect averaged out |
 | [`analysis/fulcrum_tricky_parts.txt`](analysis/fulcrum_tricky_parts.txt) | Inventory of the dataset's traps — **spoilers** |
+| [`analysis/code/`](analysis/code/) | The code that produced all of the above — verbatim export of the cells that ran, re-run from a clean checkout |
 
 **Result in one line:** a plain linear fit reaches held-out R2 = 0.11 and reports epitope distance as
 non-significant; a quasi-Poisson GLM with a log link, site as a factor and quadratics in affinity and
